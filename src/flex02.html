@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <title>flex 02 test</title>
+</head>
+<body>
+    <h1>flex 02 test</h1>
+    <p>flexbox needs a container, items laid out inside</p>
+    <p>container is parent, items are children</p>
+    <a href="https://www.youtube.com/watch?v=X6FIydgCzzY">to learn more about flex go here</a>
+
+    <div class="flex mt-5">
+        <div class="p-2 bg-yellow-200">this block 1 is quite long</div>
+        <div class="p-2 bg-blue-200">block 2 is here</div>
+        <div class="p-2 bg-red-200">block 3 with some more content here</div>
+    </div>
+
+    <div class="flex justify-evenly mt-5">
+        <div class="p-2 bg-yellow-200">block 1</div>
+        <div class="p-2 bg-blue-200">block 2</div>
+        <div class="p-2 bg-red-200">block 3</div>
+    </div>
+
+    <div class="h-80 bg-gray-100 flex flex-col justify-between items-center mt-5">
+        <div class="p-2 bg-yellow-200 text-5xl">block 1</div>
+        <div class="p-2 bg-blue-200">block 2</div>
+        <div class="p-2 bg-red-200">block 3</div>
+    </div>
+
+    <div class="h-80 bg-gray-100 flex justify-between items-center mt-5">
+        <div class="p-2 bg-yellow-200 text-5xl">block 1</div>
+        <div class="p-2 bg-blue-200">block 2</div>
+        <div class="p-2 bg-red-200">block 3</div>
+    </div>
+
+    <div class="h-80 bg-gray-100 flex flex-wrap justify-center items-center mt-5 content-center items-stretch">
+        <div class="p-2 bg-yellow-200 text-5xl">block 1 with a lot more content</div>
+        <div class="p-2 bg-blue-200">block 2 is blue</div>
+        <div class="p-2 bg-red-200">block 3 what are we doing</div>
+    </div>
+
+    <div class="h-80 bg-gray-100 flex flex-col justify-between items-center mt-5">
+        <div class="p-2 bg-yellow-200 text-5xl">block 1</div>
+        <div class="p-2 bg-blue-200">block 2</div>
+        <div class="p-2 bg-red-200 self-end">block 3</div>
+    </div>
+
+    <div class="bg-gray-100 flex justify-between items-stretch mt-5">
+        <div class="p-2 bg-yellow-200 text-5xl">block 1</div>
+        <div class="p-2 bg-blue-200">block 2</div>
+        <div class="p-2 bg-red-200">block 3</div>
+    </div>
+</body>
+</html>
