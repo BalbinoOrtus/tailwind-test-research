@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>responsive grid layout</title>
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+  <body class="grid place-items-center min-h-screen">
+    <!-- responsive grid layout -->
+    <div class="p-4 max-w-5xl grid gap-4 xs:grid-cols-2 md:grid-cols-4">
+      <h1 class="text-3xl font-extrabold xs:col-span-2 xs:grid xs:gap-4 xs:grid-cols-2 md:col-span-3 md:text-4xl md:grid-cols-3">
+        <span class="md:col-span-2">grid layout with tailwind css</span>
+        <span class="text-sm underline cursor-pointer">
+          <a href="https://www.youtube.com/watch?v=WJDw1J7FZnE" target="_blank">Building a Fancy Responsive Tile Grid with Tailwind CSS</a>
+        </span>
+      </h1>
+      <p class="text-xs xs:row-start-2 xs:col-start-2 xs:self-center md:col-start-1 md:col-span-2 md:pr-12 md:text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi tempore, atque necessitatibus ab optio tempora fugiat quaerat.</p>
+      <div class="h-16 bg-blue-500 xs:h-auto xs:square"></div>
+      <div class="h-16 bg-blue-500 xs:h-auto xs:square"></div>
+      <div class="h-16 bg-pink-500 xs:h-auto xs:square"></div>
+      <div class="h-16 bg-blue-500 xs:h-auto xs:square md:col-start-2"></div>
+      <div class="h-16 bg-pink-500 xs:h-auto xs:square"></div>
+      <div class="h-16 bg-blue-500 xs:h-auto xs:square"></div>
+      <div class="h-16 bg-blue-500 xs:h-auto xs:square"></div>
+      <div class="h-16 bg-pink-500 xs:h-auto xs:square"></div>
+      <p class="text-xs xs:self-center md:text-lg md:col-span-2 md:text-center md:px-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae tempora molestiae</p>
+    </div>
+  </body>
+</html>
